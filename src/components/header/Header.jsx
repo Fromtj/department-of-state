@@ -67,16 +67,16 @@ export default function Header() {
             </div>
         </section>
         <section className='w-[100%] bg-[#0d2e47]'>
-            <div className='max-w-[1230px] m-auto flex justify-between py-[20px]'>
+            <div className='max-w-[1230px] m-auto flex justify-between items-center'>
                 <div className='flex gap-[10px]'>
-                    <img className='relative' src={main_logo} alt="" />
-                    <h4>U.S DEPARTMENT of State</h4>
+                    <img className='relative w-[100px] h-[100px] bottom-[30px]' src={main_logo} alt="" />
+                    <h4 className='text-white text-[20px] relative top-[30px] font-[500] font-[classic]'>U.S DEPARTMENT of State</h4>
                 </div>
-                <div>
-                    <span>CONTRIES & AREAS</span>
-                    <span>BUREAUS & OFFICES</span>
-                    <span>ABOUT</span>
-                    <SearchIcon />
+                <div className='flex gap-[20px]'>
+                    <span className='text-[15px] font-[500] text-white hover:text-[15.4px] hover:font-[600]'>CONTRIES & AREAS</span>
+                    <span className='text-[15px] font-[500] text-white hover:text-[15.4px] hover:font-[600]'>BUREAUS & OFFICES</span>
+                    <span className='text-[15px] font-[500] text-white hover:text-[15.4px] hover:font-[600]'>ABOUT</span>
+                    <SearchIcon className='text-white' />
                 </div>
             </div>
         </section>
